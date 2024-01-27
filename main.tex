@@ -1,0 +1,26 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{fancyhdr}
+\cfoot{\thepage}
+\lhead{\thepage}
+\pagestyle{fancy}
+\title{
+    \vspace{2in}
+    \textbf{Final Project}\\
+    \vspace{2in}
+}
+\author{Parsa Arabshahi }
+\date{Bahman 1402}
+\begin{document}
+\begin{titlepage}
+\maketitle
+\end{titlepage}
+\newpage
+\fancyhead[R]{\textbf{Table Of Contents}}
+\tableofcontents
+\newpage
+\section{Git and Github:}
+I created a new repository called FinalProject and i made sure that i had checked create a readme file.\\
+For the automatic latex building i created \textit{.github} folder and in that i put \textit{workflows} folder. then i copied main.yml from \textit{CW1402Final} and pasted in it.\\
+with each tags i commit (using git tag) and pushing, github automatically make the pdf for it.
+\end{document}
